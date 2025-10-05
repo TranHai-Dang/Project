@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
             alert("Vui lòng điền đầy đủ thông tin."); 
             return;
         }
-        fetch('10:136:240:82/api/submit', { // IP của thiết bị host server
+        fetch('https://project20252.netlify.app//api/submit', { // IP của thiết bị host server
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -107,5 +107,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
 
 
